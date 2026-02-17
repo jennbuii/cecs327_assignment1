@@ -11,7 +11,7 @@ Starting app_server.py:
   1. Start data_server.py
   2. New Terminal (B)
   3. Command Syntax: python app_server.py <app_port> <data_port>
-        ex: python data_server.py 3400 3200
+        ex: python app_server.py 3400 3200
 
 Starting client.py:
   1. Start data_server.py (Terminal A)
@@ -20,4 +20,8 @@ Starting client.py:
   4. Command Syntax: python client.py <app_port>
        ex: python client.py 3400
 
-Any configuration options... (Include how to toggle cache here, if making toggable?)
+Configuration options:
+  - To enable cache set Line 9: USE_Cache = True in app_server.py
+  - To disable cache set Line 9: USE_Cache = False in app_server.py
+  - Restart app_server.py after changing the setting
+  - All requests and responses are logged automatically to app_server.log

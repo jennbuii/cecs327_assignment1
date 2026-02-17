@@ -1,5 +1,6 @@
 import json
 import sys
+import time
 from socket import AF_INET, SOCK_STREAM, socket
 
 HOST = "127.0.0.1"
@@ -32,6 +33,7 @@ def main():
         print("Menu:"
               "\n LIST: Display all listings"
               "\n SEARCH: Filter listings by city and max price"
+              "\n BENCHMARK: Run 50 repeated searches and measure time"
               "\n QUIT: Exit the application\n")
         choice = input("Enter your choice: ").strip().upper()
 
@@ -47,6 +49,20 @@ def main():
             s.send(f"SEARCH city={city} max_price={max_price}\n".encode("ascii"))
             response = s.recv(4096).decode("ascii")
             pretty_print(response) 
+
+        elif choice =="BENCHMARK":
+            city = input("Enter city name for benchmark: ").strip()
+            max_price = input("Enter maximum price for benchmark: ").strip()
+            cmd = f"SEARCH city={city} max_price={max_price}\n".encode("ascii")
+            N = 50
+            start = time.time()
+            for _ in range(N):
+                s.send(cmd)
+                s.recv(4096)
+            elapsed = time.time() - start
+            print(f"\nRequests sent   : {N}")
+            print(f"Total time      : {elapsed:.4f}s")
+            print(f"Avg time per request : {elapsed/N:.4f}s\n")
 
         elif choice =="QUIT":
             s.send("QUIT\n".encode("ascii"))
