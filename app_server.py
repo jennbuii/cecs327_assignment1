@@ -23,11 +23,11 @@ def raw_list(data_port):
     if response.startswith("ERROR"):
         return response
     
-    end_response = [f"OK RESULT {len(response.splitlines()[1:-1])}\n"]
+    end_response = [f"OK RESULT {len(response.splitlines()[1:-1])}"]
     ranked_response = sorted(response.splitlines()[1:-1], key=lambda x: (int(x.split(";")[3].split("=")[1]), -int(x.split(";")[4].split("=")[1])))
     end_response.extend(ranked_response)
-    end_response.append("END\n")
-    return "\n".join(end_response)
+    end_response.append("END")
+    return "\n".join(end_response) + "\n"
 
 def raw_search(cmd_line, data_port):
     s = socket(AF_INET, SOCK_STREAM)
@@ -45,11 +45,11 @@ def raw_search(cmd_line, data_port):
     if response.startswith("ERROR"):
         return response
     
-    end_response = [f"OK RESULT {len(response.splitlines()[1:-1])}\n"]
+    end_response = [f"OK RESULT {len(response.splitlines()[1:-1])}"]
     ranked_response = sorted(response.splitlines()[1:-1], key=lambda x: (int(x.split(";")[3].split("=")[1]), -int(x.split(";")[4].split("=")[1])))
     end_response.extend(ranked_response)
-    end_response.append("END\n")
-    return "\n".join(end_response)
+    end_response.append("END")
+    return "\n".join(end_response) + "\n"
 
 def main():
     if len(sys.argv) != 3:

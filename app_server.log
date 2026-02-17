@@ -29,3 +29,216 @@ id=3;city=SanFrancisco;address=321 Union St;price=8000;bedrooms=2
 id=18;city=Orlando;address=267 Florida St;price=9000;bedrooms=4
 END
 
+2026-02-17 07:02:17 - Received command: LIST
+2026-02-17 07:02:17 - Sending response: OK RESULT 20
+
+id=9;city=Fresno;address=123 Bakery St;price=1000;bedrooms=5
+id=8;city=Fresno;address=333 Fresno St;price=2000;bedrooms=3
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+id=4;city=Dallas;address=456 Main St;price=2500;bedrooms=2
+id=16;city=LosAngeles;address=111 Market St;price=3000;bedrooms=5
+id=15;city=Fresno;address=789 EarlWarren Dr;price=3000;bedrooms=3
+id=5;city=Orlando;address=267 Lampson Ave;price=3000;bedrooms=1
+id=12;city=SanFrancisco;address=222 Twelfth St;price=3500;bedrooms=2
+id=14;city=LongBeach;address=678 Bellflower Blvd;price=4000;bedrooms=3
+id=19;city=SanDiego;address=567 Fresno St;price=4000;bedrooms=3
+id=10;city=LongBeach;address=444 Studebaker Rd;price=4000;bedrooms=2
+id=13;city=Fresno;address=191 Walnut Ave;price=4000;bedrooms=2
+id=17;city=LosAngeles;address=975 Stockton St;price=4000;bedrooms=2
+id=20;city=SanDiego;address=129 Market St;price=5000;bedrooms=2
+id=11;city=Irvine;address=345 Anteater St;price=5000;bedrooms=1
+id=6;city=Orlando;address=654 Westcliff Dr;price=6000;bedrooms=3
+id=2;city=LosAngeles;address=123 Hollywood Blvd;price=6000;bedrooms=1
+id=7;city=LosAngeles;address=482 Sunset Blvd;price=8000;bedrooms=3
+id=3;city=SanFrancisco;address=321 Union St;price=8000;bedrooms=2
+id=18;city=Orlando;address=267 Florida St;price=9000;bedrooms=4
+END
+
+2026-02-17 07:06:25 - Received command: LIST
+2026-02-17 07:06:25 - Sending response: OK RESULT 20
+
+id=9;city=Fresno;address=123 Bakery St;price=1000;bedrooms=5
+id=8;city=Fresno;address=333 Fresno St;price=2000;bedrooms=3
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+id=4;city=Dallas;address=456 Main St;price=2500;bedrooms=2
+id=16;city=LosAngeles;address=111 Market St;price=3000;bedrooms=5
+id=15;city=Fresno;address=789 EarlWarren Dr;price=3000;bedrooms=3
+id=5;city=Orlando;address=267 Lampson Ave;price=3000;bedrooms=1
+id=12;city=SanFrancisco;address=222 Twelfth St;price=3500;bedrooms=2
+id=14;city=LongBeach;address=678 Bellflower Blvd;price=4000;bedrooms=3
+id=19;city=SanDiego;address=567 Fresno St;price=4000;bedrooms=3
+id=10;city=LongBeach;address=444 Studebaker Rd;price=4000;bedrooms=2
+id=13;city=Fresno;address=191 Walnut Ave;price=4000;bedrooms=2
+id=17;city=LosAngeles;address=975 Stockton St;price=4000;bedrooms=2
+id=20;city=SanDiego;address=129 Market St;price=5000;bedrooms=2
+id=11;city=Irvine;address=345 Anteater St;price=5000;bedrooms=1
+id=6;city=Orlando;address=654 Westcliff Dr;price=6000;bedrooms=3
+id=2;city=LosAngeles;address=123 Hollywood Blvd;price=6000;bedrooms=1
+id=7;city=LosAngeles;address=482 Sunset Blvd;price=8000;bedrooms=3
+id=3;city=SanFrancisco;address=321 Union St;price=8000;bedrooms=2
+id=18;city=Orlando;address=267 Florida St;price=9000;bedrooms=4
+END
+
+2026-02-17 07:10:04 - Received command: LIST
+2026-02-17 07:10:04 - Sending response: OK RESULT 20
+
+id=9;city=Fresno;address=123 Bakery St;price=1000;bedrooms=5
+id=8;city=Fresno;address=333 Fresno St;price=2000;bedrooms=3
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+id=4;city=Dallas;address=456 Main St;price=2500;bedrooms=2
+id=16;city=LosAngeles;address=111 Market St;price=3000;bedrooms=5
+id=15;city=Fresno;address=789 EarlWarren Dr;price=3000;bedrooms=3
+id=5;city=Orlando;address=267 Lampson Ave;price=3000;bedrooms=1
+id=12;city=SanFrancisco;address=222 Twelfth St;price=3500;bedrooms=2
+id=14;city=LongBeach;address=678 Bellflower Blvd;price=4000;bedrooms=3
+id=19;city=SanDiego;address=567 Fresno St;price=4000;bedrooms=3
+id=10;city=LongBeach;address=444 Studebaker Rd;price=4000;bedrooms=2
+id=13;city=Fresno;address=191 Walnut Ave;price=4000;bedrooms=2
+id=17;city=LosAngeles;address=975 Stockton St;price=4000;bedrooms=2
+id=20;city=SanDiego;address=129 Market St;price=5000;bedrooms=2
+id=11;city=Irvine;address=345 Anteater St;price=5000;bedrooms=1
+id=6;city=Orlando;address=654 Westcliff Dr;price=6000;bedrooms=3
+id=2;city=LosAngeles;address=123 Hollywood Blvd;price=6000;bedrooms=1
+id=7;city=LosAngeles;address=482 Sunset Blvd;price=8000;bedrooms=3
+id=3;city=SanFrancisco;address=321 Union St;price=8000;bedrooms=2
+id=18;city=Orlando;address=267 Florida St;price=9000;bedrooms=4
+END
+
+2026-02-17 07:10:48 - Received command: LIST
+2026-02-17 07:10:48 - Sending response: OK RESULT 20
+
+id=9;city=Fresno;address=123 Bakery St;price=1000;bedrooms=5
+id=8;city=Fresno;address=333 Fresno St;price=2000;bedrooms=3
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+id=4;city=Dallas;address=456 Main St;price=2500;bedrooms=2
+id=16;city=LosAngeles;address=111 Market St;price=3000;bedrooms=5
+id=15;city=Fresno;address=789 EarlWarren Dr;price=3000;bedrooms=3
+id=5;city=Orlando;address=267 Lampson Ave;price=3000;bedrooms=1
+id=12;city=SanFrancisco;address=222 Twelfth St;price=3500;bedrooms=2
+id=14;city=LongBeach;address=678 Bellflower Blvd;price=4000;bedrooms=3
+id=19;city=SanDiego;address=567 Fresno St;price=4000;bedrooms=3
+id=10;city=LongBeach;address=444 Studebaker Rd;price=4000;bedrooms=2
+id=13;city=Fresno;address=191 Walnut Ave;price=4000;bedrooms=2
+id=17;city=LosAngeles;address=975 Stockton St;price=4000;bedrooms=2
+id=20;city=SanDiego;address=129 Market St;price=5000;bedrooms=2
+id=11;city=Irvine;address=345 Anteater St;price=5000;bedrooms=1
+id=6;city=Orlando;address=654 Westcliff Dr;price=6000;bedrooms=3
+id=2;city=LosAngeles;address=123 Hollywood Blvd;price=6000;bedrooms=1
+id=7;city=LosAngeles;address=482 Sunset Blvd;price=8000;bedrooms=3
+id=3;city=SanFrancisco;address=321 Union St;price=8000;bedrooms=2
+id=18;city=Orlando;address=267 Florida St;price=9000;bedrooms=4
+END
+
+2026-02-17 07:12:10 - Received command: LIST
+2026-02-17 07:12:10 - Sending response: OK RESULT 20
+
+id=9;city=Fresno;address=123 Bakery St;price=1000;bedrooms=5
+id=8;city=Fresno;address=333 Fresno St;price=2000;bedrooms=3
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+id=4;city=Dallas;address=456 Main St;price=2500;bedrooms=2
+id=16;city=LosAngeles;address=111 Market St;price=3000;bedrooms=5
+id=15;city=Fresno;address=789 EarlWarren Dr;price=3000;bedrooms=3
+id=5;city=Orlando;address=267 Lampson Ave;price=3000;bedrooms=1
+id=12;city=SanFrancisco;address=222 Twelfth St;price=3500;bedrooms=2
+id=14;city=LongBeach;address=678 Bellflower Blvd;price=4000;bedrooms=3
+id=19;city=SanDiego;address=567 Fresno St;price=4000;bedrooms=3
+id=10;city=LongBeach;address=444 Studebaker Rd;price=4000;bedrooms=2
+id=13;city=Fresno;address=191 Walnut Ave;price=4000;bedrooms=2
+id=17;city=LosAngeles;address=975 Stockton St;price=4000;bedrooms=2
+id=20;city=SanDiego;address=129 Market St;price=5000;bedrooms=2
+id=11;city=Irvine;address=345 Anteater St;price=5000;bedrooms=1
+id=6;city=Orlando;address=654 Westcliff Dr;price=6000;bedrooms=3
+id=2;city=LosAngeles;address=123 Hollywood Blvd;price=6000;bedrooms=1
+id=7;city=LosAngeles;address=482 Sunset Blvd;price=8000;bedrooms=3
+id=3;city=SanFrancisco;address=321 Union St;price=8000;bedrooms=2
+id=18;city=Orlando;address=267 Florida St;price=9000;bedrooms=4
+END
+
+2026-02-17 07:21:47 - Received command: LIST
+2026-02-17 07:21:47 - Sending response: OK RESULT 20
+id=9;city=Fresno;address=123 Bakery St;price=1000;bedrooms=5id=8;city=Fresno;address=333 Fresno St;price=2000;bedrooms=3id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2id=4;city=Dallas;address=456 Main St;price=2500;bedrooms=2id=16;city=LosAngeles;address=111 Market St;price=3000;bedrooms=5id=15;city=Fresno;address=789 EarlWarren Dr;price=3000;bedrooms=3id=5;city=Orlando;address=267 Lampson Ave;price=3000;bedrooms=1id=12;city=SanFrancisco;address=222 Twelfth St;price=3500;bedrooms=2id=14;city=LongBeach;address=678 Bellflower Blvd;price=4000;bedrooms=3id=19;city=SanDiego;address=567 Fresno St;price=4000;bedrooms=3id=10;city=LongBeach;address=444 Studebaker Rd;price=4000;bedrooms=2id=13;city=Fresno;address=191 Walnut Ave;price=4000;bedrooms=2id=17;city=LosAngeles;address=975 Stockton St;price=4000;bedrooms=2id=20;city=SanDiego;address=129 Market St;price=5000;bedrooms=2id=11;city=Irvine;address=345 Anteater St;price=5000;bedrooms=1id=6;city=Orlando;address=654 Westcliff Dr;price=6000;bedrooms=3id=2;city=LosAngeles;address=123 Hollywood Blvd;price=6000;bedrooms=1id=7;city=LosAngeles;address=482 Sunset Blvd;price=8000;bedrooms=3id=3;city=SanFrancisco;address=321 Union St;price=8000;bedrooms=2id=18;city=Orlando;address=267 Florida St;price=9000;bedrooms=4END
+
+2026-02-17 07:23:46 - Received command: LIST
+2026-02-17 07:23:46 - Sending response: OK RESULT 20
+id=9;city=Fresno;address=123 Bakery St;price=1000;bedrooms=5id=8;city=Fresno;address=333 Fresno St;price=2000;bedrooms=3id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2id=4;city=Dallas;address=456 Main St;price=2500;bedrooms=2id=16;city=LosAngeles;address=111 Market St;price=3000;bedrooms=5id=15;city=Fresno;address=789 EarlWarren Dr;price=3000;bedrooms=3id=5;city=Orlando;address=267 Lampson Ave;price=3000;bedrooms=1id=12;city=SanFrancisco;address=222 Twelfth St;price=3500;bedrooms=2id=14;city=LongBeach;address=678 Bellflower Blvd;price=4000;bedrooms=3id=19;city=SanDiego;address=567 Fresno St;price=4000;bedrooms=3id=10;city=LongBeach;address=444 Studebaker Rd;price=4000;bedrooms=2id=13;city=Fresno;address=191 Walnut Ave;price=4000;bedrooms=2id=17;city=LosAngeles;address=975 Stockton St;price=4000;bedrooms=2id=20;city=SanDiego;address=129 Market St;price=5000;bedrooms=2id=11;city=Irvine;address=345 Anteater St;price=5000;bedrooms=1id=6;city=Orlando;address=654 Westcliff Dr;price=6000;bedrooms=3id=2;city=LosAngeles;address=123 Hollywood Blvd;price=6000;bedrooms=1id=7;city=LosAngeles;address=482 Sunset Blvd;price=8000;bedrooms=3id=3;city=SanFrancisco;address=321 Union St;price=8000;bedrooms=2id=18;city=Orlando;address=267 Florida St;price=9000;bedrooms=4END
+
+2026-02-17 07:26:40 - Received command: LIST
+2026-02-17 07:26:40 - Sending response: OK RESULT 20
+id=9;city=Fresno;address=123 Bakery St;price=1000;bedrooms=5
+id=8;city=Fresno;address=333 Fresno St;price=2000;bedrooms=3
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+id=4;city=Dallas;address=456 Main St;price=2500;bedrooms=2
+id=16;city=LosAngeles;address=111 Market St;price=3000;bedrooms=5
+id=15;city=Fresno;address=789 EarlWarren Dr;price=3000;bedrooms=3
+id=5;city=Orlando;address=267 Lampson Ave;price=3000;bedrooms=1
+id=12;city=SanFrancisco;address=222 Twelfth St;price=3500;bedrooms=2
+id=14;city=LongBeach;address=678 Bellflower Blvd;price=4000;bedrooms=3
+id=19;city=SanDiego;address=567 Fresno St;price=4000;bedrooms=3
+id=10;city=LongBeach;address=444 Studebaker Rd;price=4000;bedrooms=2
+id=13;city=Fresno;address=191 Walnut Ave;price=4000;bedrooms=2
+id=17;city=LosAngeles;address=975 Stockton St;price=4000;bedrooms=2
+id=20;city=SanDiego;address=129 Market St;price=5000;bedrooms=2
+id=11;city=Irvine;address=345 Anteater St;price=5000;bedrooms=1
+id=6;city=Orlando;address=654 Westcliff Dr;price=6000;bedrooms=3
+id=2;city=LosAngeles;address=123 Hollywood Blvd;price=6000;bedrooms=1
+id=7;city=LosAngeles;address=482 Sunset Blvd;price=8000;bedrooms=3
+id=3;city=SanFrancisco;address=321 Union St;price=8000;bedrooms=2
+id=18;city=Orlando;address=267 Florida St;price=9000;bedrooms=4
+END
+
+2026-02-17 07:27:16 - Received command: LIST
+2026-02-17 07:27:16 - Sending response: OK RESULT 20
+id=9;city=Fresno;address=123 Bakery St;price=1000;bedrooms=5
+id=8;city=Fresno;address=333 Fresno St;price=2000;bedrooms=3
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+id=4;city=Dallas;address=456 Main St;price=2500;bedrooms=2
+id=16;city=LosAngeles;address=111 Market St;price=3000;bedrooms=5
+id=15;city=Fresno;address=789 EarlWarren Dr;price=3000;bedrooms=3
+id=5;city=Orlando;address=267 Lampson Ave;price=3000;bedrooms=1
+id=12;city=SanFrancisco;address=222 Twelfth St;price=3500;bedrooms=2
+id=14;city=LongBeach;address=678 Bellflower Blvd;price=4000;bedrooms=3
+id=19;city=SanDiego;address=567 Fresno St;price=4000;bedrooms=3
+id=10;city=LongBeach;address=444 Studebaker Rd;price=4000;bedrooms=2
+id=13;city=Fresno;address=191 Walnut Ave;price=4000;bedrooms=2
+id=17;city=LosAngeles;address=975 Stockton St;price=4000;bedrooms=2
+id=20;city=SanDiego;address=129 Market St;price=5000;bedrooms=2
+id=11;city=Irvine;address=345 Anteater St;price=5000;bedrooms=1
+id=6;city=Orlando;address=654 Westcliff Dr;price=6000;bedrooms=3
+id=2;city=LosAngeles;address=123 Hollywood Blvd;price=6000;bedrooms=1
+id=7;city=LosAngeles;address=482 Sunset Blvd;price=8000;bedrooms=3
+id=3;city=SanFrancisco;address=321 Union St;price=8000;bedrooms=2
+id=18;city=Orlando;address=267 Florida St;price=9000;bedrooms=4
+END
+
+2026-02-17 07:31:56 - Received command: QUIT
+2026-02-17 07:40:07 - Received command: LIST
+2026-02-17 07:40:07 - Sending response: OK RESULT 20
+id=9;city=Fresno;address=123 Bakery St;price=1000;bedrooms=5
+id=8;city=Fresno;address=333 Fresno St;price=2000;bedrooms=3
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+id=4;city=Dallas;address=456 Main St;price=2500;bedrooms=2
+id=16;city=LosAngeles;address=111 Market St;price=3000;bedrooms=5
+id=15;city=Fresno;address=789 EarlWarren Dr;price=3000;bedrooms=3
+id=5;city=Orlando;address=267 Lampson Ave;price=3000;bedrooms=1
+id=12;city=SanFrancisco;address=222 Twelfth St;price=3500;bedrooms=2
+id=14;city=LongBeach;address=678 Bellflower Blvd;price=4000;bedrooms=3
+id=19;city=SanDiego;address=567 Fresno St;price=4000;bedrooms=3
+id=10;city=LongBeach;address=444 Studebaker Rd;price=4000;bedrooms=2
+id=13;city=Fresno;address=191 Walnut Ave;price=4000;bedrooms=2
+id=17;city=LosAngeles;address=975 Stockton St;price=4000;bedrooms=2
+id=20;city=SanDiego;address=129 Market St;price=5000;bedrooms=2
+id=11;city=Irvine;address=345 Anteater St;price=5000;bedrooms=1
+id=6;city=Orlando;address=654 Westcliff Dr;price=6000;bedrooms=3
+id=2;city=LosAngeles;address=123 Hollywood Blvd;price=6000;bedrooms=1
+id=7;city=LosAngeles;address=482 Sunset Blvd;price=8000;bedrooms=3
+id=3;city=SanFrancisco;address=321 Union St;price=8000;bedrooms=2
+id=18;city=Orlando;address=267 Florida St;price=9000;bedrooms=4
+END
+
+2026-02-17 07:41:09 - Received command: SEARCH city=LongBeach max_price=5000
+2026-02-17 07:41:09 - Sending response: OK RESULT 3
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+id=14;city=LongBeach;address=678 Bellflower Blvd;price=4000;bedrooms=3
+id=10;city=LongBeach;address=444 Studebaker Rd;price=4000;bedrooms=2
+END
+
