@@ -242,3 +242,1017 @@ id=14;city=LongBeach;address=678 Bellflower Blvd;price=4000;bedrooms=3
 id=10;city=LongBeach;address=444 Studebaker Rd;price=4000;bedrooms=2
 END
 
+2026-02-17 14:30:41 - Received command: LIST
+2026-02-17 14:30:41 - Cache miss: Fetching LIST from data server
+
+2026-02-17 14:30:41 - Sending response: OK RESULT 20
+id=9;city=Fresno;address=123 Bakery St;price=1000;bedrooms=5
+id=8;city=Fresno;address=333 Fresno St;price=2000;bedrooms=3
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+id=4;city=Dallas;address=456 Main St;price=2500;bedrooms=2
+id=16;city=LosAngeles;address=111 Market St;price=3000;bedrooms=5
+id=15;city=Fresno;address=789 EarlWarren Dr;price=3000;bedrooms=3
+id=5;city=Orlando;address=267 Lampson Ave;price=3000;bedrooms=1
+id=12;city=SanFrancisco;address=222 Twelfth St;price=3500;bedrooms=2
+id=14;city=LongBeach;address=678 Bellflower Blvd;price=4000;bedrooms=3
+id=19;city=SanDiego;address=567 Fresno St;price=4000;bedrooms=3
+id=10;city=LongBeach;address=444 Studebaker Rd;price=4000;bedrooms=2
+id=13;city=Fresno;address=191 Walnut Ave;price=4000;bedrooms=2
+id=17;city=LosAngeles;address=975 Stockton St;price=4000;bedrooms=2
+id=20;city=SanDiego;address=129 Market St;price=5000;bedrooms=2
+id=11;city=Irvine;address=345 Anteater St;price=5000;bedrooms=1
+id=6;city=Orlando;address=654 Westcliff Dr;price=6000;bedrooms=3
+id=2;city=LosAngeles;address=123 Hollywood Blvd;price=6000;bedrooms=1
+id=7;city=LosAngeles;address=482 Sunset Blvd;price=8000;bedrooms=3
+id=3;city=SanFrancisco;address=321 Union St;price=8000;bedrooms=2
+id=18;city=Orlando;address=267 Florida St;price=9000;bedrooms=4
+END
+
+2026-02-17 14:31:09 - Received command: SEARCH city=LONG BEACH max_price=9000
+2026-02-17 14:31:09 - Cache miss: Fetching SEARCH city=LONG BEACH max_price=9000 from data server
+
+2026-02-17 14:31:09 - Sending response: ERROR incorrect command arguments
+
+2026-02-17 14:34:30 - Received command: QUIT
+2026-02-17 14:34:30 - Cache miss: Fetching QUIT from data server
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:36:04 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:36:04 - Received command: QUIT
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache miss: Fetching SEARCH city=LongBeach max_price=2500 from data server
+
+2026-02-17 14:37:23 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:37:23 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:37:23 - Received command: QUIT
+2026-02-17 14:37:23 - Cache miss: Fetching QUIT from data server
+
+2026-02-17 14:42:33 - Received command: LIST
+2026-02-17 14:42:33 - Cache miss: Fetching LIST from data server
+
+2026-02-17 14:42:33 - Sending response: OK RESULT 20
+id=9;city=Fresno;address=123 Bakery St;price=1000;bedrooms=5
+id=8;city=Fresno;address=333 Fresno St;price=2000;bedrooms=3
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+id=4;city=Dallas;address=456 Main St;price=2500;bedrooms=2
+id=16;city=LosAngeles;address=111 Market St;price=3000;bedrooms=5
+id=15;city=Fresno;address=789 EarlWarren Dr;price=3000;bedrooms=3
+id=5;city=Orlando;address=267 Lampson Ave;price=3000;bedrooms=1
+id=12;city=SanFrancisco;address=222 Twelfth St;price=3500;bedrooms=2
+id=14;city=LongBeach;address=678 Bellflower Blvd;price=4000;bedrooms=3
+id=19;city=SanDiego;address=567 Fresno St;price=4000;bedrooms=3
+id=10;city=LongBeach;address=444 Studebaker Rd;price=4000;bedrooms=2
+id=13;city=Fresno;address=191 Walnut Ave;price=4000;bedrooms=2
+id=17;city=LosAngeles;address=975 Stockton St;price=4000;bedrooms=2
+id=20;city=SanDiego;address=129 Market St;price=5000;bedrooms=2
+id=11;city=Irvine;address=345 Anteater St;price=5000;bedrooms=1
+id=6;city=Orlando;address=654 Westcliff Dr;price=6000;bedrooms=3
+id=2;city=LosAngeles;address=123 Hollywood Blvd;price=6000;bedrooms=1
+id=7;city=LosAngeles;address=482 Sunset Blvd;price=8000;bedrooms=3
+id=3;city=SanFrancisco;address=321 Union St;price=8000;bedrooms=2
+id=18;city=Orlando;address=267 Florida St;price=9000;bedrooms=4
+END
+
+2026-02-17 14:43:21 - Received command: LIST
+2026-02-17 14:43:21 - Cache miss: Fetching LIST from data server
+
+2026-02-17 14:43:21 - Sending response: OK RESULT 20
+id=9;city=Fresno;address=123 Bakery St;price=1000;bedrooms=5
+id=8;city=Fresno;address=333 Fresno St;price=2000;bedrooms=3
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+id=4;city=Dallas;address=456 Main St;price=2500;bedrooms=2
+id=16;city=LosAngeles;address=111 Market St;price=3000;bedrooms=5
+id=15;city=Fresno;address=789 EarlWarren Dr;price=3000;bedrooms=3
+id=5;city=Orlando;address=267 Lampson Ave;price=3000;bedrooms=1
+id=12;city=SanFrancisco;address=222 Twelfth St;price=3500;bedrooms=2
+id=14;city=LongBeach;address=678 Bellflower Blvd;price=4000;bedrooms=3
+id=19;city=SanDiego;address=567 Fresno St;price=4000;bedrooms=3
+id=10;city=LongBeach;address=444 Studebaker Rd;price=4000;bedrooms=2
+id=13;city=Fresno;address=191 Walnut Ave;price=4000;bedrooms=2
+id=17;city=LosAngeles;address=975 Stockton St;price=4000;bedrooms=2
+id=20;city=SanDiego;address=129 Market St;price=5000;bedrooms=2
+id=11;city=Irvine;address=345 Anteater St;price=5000;bedrooms=1
+id=6;city=Orlando;address=654 Westcliff Dr;price=6000;bedrooms=3
+id=2;city=LosAngeles;address=123 Hollywood Blvd;price=6000;bedrooms=1
+id=7;city=LosAngeles;address=482 Sunset Blvd;price=8000;bedrooms=3
+id=3;city=SanFrancisco;address=321 Union St;price=8000;bedrooms=2
+id=18;city=Orlando;address=267 Florida St;price=9000;bedrooms=4
+END
+
+2026-02-17 14:43:33 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:43:33 - Cache miss: Fetching SEARCH city=LongBeach max_price=2500 from data server
+
+2026-02-17 14:43:33 - Sending response: OK RESULT 1
+id=1;city=LongBeach;address=123 Ocean Blvd;price=2200;bedrooms=2
+END
+
+2026-02-17 14:43:42 - Received command: QUIT
+2026-02-17 14:43:42 - Cache miss: Fetching QUIT from data server
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: SEARCH city=LongBeach max_price=2500
+2026-02-17 14:48:49 - Cache hit: Serving SEARCH city=LongBeach max_price=2500 from memory
+
+2026-02-17 14:48:49 - Received command: QUIT
+2026-02-17 14:48:49 - Cache miss: Fetching QUIT from data server
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache miss: Fetching SEARCH city=LONGBEACH max_price=3000 from data server
+
+2026-02-17 14:55:16 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:16 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:55:16 - Cache hit: Serving SEARCH city=LONGBEACH max_price=3000 from memory
+
+2026-02-17 14:55:49 - Received command: QUIT
+2026-02-17 14:55:49 - Cache miss: Fetching QUIT from data server
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:56:34 - Received command: SEARCH city=LONGBEACH max_price=3000
+2026-02-17 14:56:34 - Sending response: OK RESULT 0
+END
+
+2026-02-17 14:58:30 - Received command: QUIT

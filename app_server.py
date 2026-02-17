@@ -5,6 +5,10 @@ from datetime import datetime
 
 HOST = "127.0.0.1"
 
+#Cache
+USE_Cache = True
+Cache = {}
+
 def logger(message):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     with open("app_server.log", "a") as log_file:
@@ -62,28 +66,43 @@ def main():
     s.bind((HOST, app_port))
     s.listen(5)
     print(f"App server listening on port {app_port}\n")
+    print(f"Caching is: {'enabled' if USE_Cache else 'disabled'}\n")
 
     while True:
         conn, addr = s.accept()
         try:
-            data = conn.recv(1024)
-            if not data:
-                continue
-            cmd_line = data.decode("ascii").strip()
-            logger(f"Received command: {cmd_line}")
+            while True:
+                data = conn.recv(1024)
+                if not data:
+                    break
+                cmd_line = data.decode("ascii").strip()
+                logger(f"Received command: {cmd_line}")
 
-            if cmd_line.startswith("LIST"):
-                response = raw_list(data_port)
-            elif cmd_line.startswith("SEARCH"):
-                response = raw_search(cmd_line, data_port)
-            elif cmd_line.startswith("QUIT"):
-                response = "OK QUIT\n"
+                #Caching logic
+                if USE_Cache and cmd_line in Cache:
+                    logger(f"Cache hit: Serving {cmd_line} from memory\n")
+                    response = Cache[cmd_line]
+                else:
+                    if USE_Cache:
+                        logger(f"Cache miss: Fetching {cmd_line} from data server\n")
+    
+                    if cmd_line.startswith("LIST"):
+                        response = raw_list(data_port)
+                    elif cmd_line.startswith("SEARCH"):
+                        response = raw_search(cmd_line, data_port)
+                    elif cmd_line.startswith("QUIT"):
+                        response = "OK QUIT\n"
+                        conn.send(response.encode("ascii"))
+                        break
+                    else:
+                        response = "ERROR invalid command syntax\n"
+                    logger(f"Sending response: {response.strip()}\n")
                 conn.send(response.encode("ascii"))
-                continue
-            else:
-                response = "ERROR invalid command syntax\n"
-            logger(f"Sending response: {response.strip()}\n")
-            conn.send(response.encode("ascii"))
+
+                #Store result in cache if valid and caching is enabled
+                if USE_Cache and response.startswith("OK RESULT"):
+                    Cache[cmd_line] = response
+                
         finally:
             conn.close()
 
